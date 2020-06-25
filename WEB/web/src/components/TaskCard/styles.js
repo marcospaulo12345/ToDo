@@ -12,6 +12,7 @@ export const Container = styled.div`
     flex-direction: column;
     cursor: pointer;
     transition: all 0.3s ease;
+    opacity: ${props => props.done ? 0.5 : 1};
 
     margin: 20px;
 
